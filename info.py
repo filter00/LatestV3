@@ -98,8 +98,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'runurl.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ac9f9a4429fc8cfac61e54cbc6797c6d2c1b46af')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'tnshort.net')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '50f43e250ff1ea5d138bcde94cf715d36cde5ac8')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
